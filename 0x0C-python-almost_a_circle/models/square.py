@@ -1,4 +1,3 @@
-square.py
 #!/usr/bin/python3
 """Defines a square class."""
 from models.rectangle import Rectangle
@@ -82,3 +81,4 @@ class Square(Rectangle):
         """Return the print() and str() representation of a Square."""
         return "[Square] ({}) {}/{} - {}".format(self.id, self.x, self.y,
                                                  self.width)
+
